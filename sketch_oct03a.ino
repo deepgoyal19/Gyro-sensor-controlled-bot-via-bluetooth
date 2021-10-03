@@ -1,7 +1,7 @@
 
 #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(0, 1); // RX, TX plwase remove the any humper cable attached to 0 and 1 port before uploading the code
+SoftwareSerial mySerial(0, 1); // RX, TX plwase remove the any jumper cable attached to 0 and 1 port before uploading the code
 
 String BT_input;                          // to store input character received via BT.
                              // device to control
